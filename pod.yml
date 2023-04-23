@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: reddit-clone
+  namespace: reddit-clone-ns
 spec:
   containers:
   - name: reddit-clone
